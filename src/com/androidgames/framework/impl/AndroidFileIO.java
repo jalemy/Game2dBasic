@@ -18,7 +18,8 @@ public class AndroidFileIO implements FileIO {
 	
 	public AndroidFileIO(AssetManager assets) {
 		this.assets = assets;
-		String externalStoragePath = Environment.getExternalStorageDirectory().getAbsolutePath() + File.separator;
+		this.externalStoragePath = Environment.getExternalStorageDirectory()
+											.getAbsolutePath() + File.separator;
 	}
 	
 	@Override
