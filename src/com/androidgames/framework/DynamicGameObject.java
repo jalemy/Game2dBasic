@@ -1,4 +1,4 @@
-package com.androidgames.game2d;
+package com.androidgames.framework;
 
 import com.androidgames.framework.math.Vector2;
 

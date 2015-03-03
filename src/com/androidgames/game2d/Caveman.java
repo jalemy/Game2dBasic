@@ -1,5 +1,7 @@
 package com.androidgames.game2d;
 
+import com.androidgames.framework.DynamicGameObject;
+
 public class Caveman extends DynamicGameObject {
 	private static final float WORLD_WIDTH = 9.6f;
 	private static final float WORLD_HEIGHT = 6.4f;

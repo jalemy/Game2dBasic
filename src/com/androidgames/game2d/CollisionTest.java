@@ -7,7 +7,9 @@ import javax.microedition.khronos.opengles.GL10;
 
 import android.util.FloatMath;
 
+import com.androidgames.framework.DynamicGameObject;
 import com.androidgames.framework.Game;
+import com.androidgames.framework.GameObject;
 import com.androidgames.framework.Input.TouchEvent;
 import com.androidgames.framework.Screen;
 import com.androidgames.framework.gl.SpatialHashGrid;

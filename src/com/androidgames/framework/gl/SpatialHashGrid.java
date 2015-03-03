@@ -5,7 +5,7 @@ import java.util.List;
 
 import android.util.FloatMath;
 
-import com.androidgames.game2d.GameObject;
+import com.androidgames.framework.GameObject;
 
 public class SpatialHashGrid {
 	List<GameObject>[] dynamicCells;
